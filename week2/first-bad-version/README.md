@@ -1,0 +1,5 @@
+1) This task is similar to the first one, we need to find from the array the targetted number which is a bad version here. But also every other version after the bad version is also a bad one. So the point is to find the original bad version
+2) My solution is almost the same as in the first task. We check every element of the array from the start using the IsBadVersion API. Since the array is sorted, the first bad version will obviously be the first in the row of the bad versions, so the first bad version we find will be the answer
+3) Here time complexity is the same as in the first task, it's O(n) because my solution in the worst case will check every element in the array which means the complexity is O(n)
+4) Space complexity is again O(1) because we just check every element without creating any extra elements or array and stuff like that
+5) I think my solution is the most basic and the most effiecient one, it just checks every element one by one. So yeah, it's the best solution in my opinion
