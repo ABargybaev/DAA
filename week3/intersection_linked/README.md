@@ -1,0 +1,5 @@
+1) Here the task is quite interesting. We need to find if there is a node in a link which connects the two lists (a node with the same value) and return it. If there is no such node, we need to return null
+2) Here the solution is simple, but for me was not as usual as other ones. First of all we make two pointers for each list which are the heads of the lists. Then with while loop we check if the value of the node in list a is the same as in list b. If it's not the same, we start checking. We check both lists. When the algorithm finally finds the same nodes, it stops the loop and returns the value.
+3) Here time complexity is O(n+k) because we in the worst case we will compare 2 lists from start to the end
+4) The space complexity is O(1) because we don't create any new lists, we just work with the given
+5) Honestly the here I really wanted to make an effort to make the most efficient solution. It was interesting to think of how to write the code, because it wasn't as obvious. I know the goal of these labs wasn't to find the best answer, but it still was an interesting challenge
