@@ -1,0 +1,5 @@
+1. In this task we need to find the maximum depth of a binary tree counting it by the nodes
+2. We check if the root is null. If it is we return 0 because an empty tree has no depth. If it's not null we check the depth of the left subtree and the right subtree. Then we compare them to choose which one is bigger and add 1 for the current node. It repeats until we reach the leaf nodes and then the results are returned back to the root
+3. The time complexity here is O(n) because we need to visit every node in the tree 
+4. The space complexity here is O(n) in the worst case because we use recursion, which takes extra memory in the call stack. If the tree is completely skewed, the recursion can go through all n nodes. But if the tree is balanced, the space complexity is only O(log n) because the height of the tree is smaller.
+5. I think my solution is pretty simple and efficient. We don't need any additional arrays or lists, we just calculate the depth of both subtrees and choose the bigger one. The time complexity is O(n), which is good because we need to check all nodes anyway. I think recursion is the easiest way to solve this problem.
