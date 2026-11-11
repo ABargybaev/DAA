@@ -1,0 +1,5 @@
+1. In this task we need to check if there is a path in a binary tree where the sum of all nodes is equal to the given sum
+2. If root is null, we return false. Then we check if the current node is a leaf. If it is we compare its value with the remaining target sum. If not we recursively check the left and right subtrees. Every time we move to another node we subtract the current node's value from targetSum. If either the left or right path gives us the correct sum we return true
+3. The time complexity here is O(n) because in the worst case we might need to visit every node in the tree to find the correct path
+4. The space complexity here is O(n) in the worst case because we use recursion and if the tree is completely skewed we might have n recursive calls. But if the tree is balanced the space complexity is O(log n)
+5. I think my solution is really simple and efficient. We don't need any additional arrays or lists, we just use recursion and subtract the values from the target sum. If we find a correct path we immediately return true without checking the remaining nodes. So I think this is one of the easiest ways to solve this problem
